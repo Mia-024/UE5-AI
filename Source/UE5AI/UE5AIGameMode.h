@@ -6,12 +6,17 @@
 #include "GameFramework/GameModeBase.h"
 #include "UE5AIGameMode.generated.h"
 
-UCLASS(minimalapi)
+/**
+ *  Simple GameMode for a third person game
+ */
+UCLASS(abstract)
 class AUE5AIGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
+	
+	/** Constructor */
 	AUE5AIGameMode();
 };
 
