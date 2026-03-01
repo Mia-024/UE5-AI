@@ -1,0 +1,1 @@
+﻿#include "Interface/ICacheBase.h"

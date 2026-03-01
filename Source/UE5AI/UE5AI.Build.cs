@@ -25,6 +25,7 @@ public class UE5AI : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"UE5AI",
+			"UE5AI/Public",
 			"UE5AI/Variant_Platforming",
 			"UE5AI/Variant_Platforming/Animation",
 			"UE5AI/Variant_Combat",
